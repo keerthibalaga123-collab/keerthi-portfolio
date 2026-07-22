@@ -756,51 +756,34 @@ border:none;
 padding:15px;
 
 border-radius:50%;
-
 cursor:pointer;
-
 display:none;
-
 font-size:18px;
-
 box-shadow:0 5px 15px rgba(0,0,0,.3);
-
 }
 .light-mode{
-
 background:#F8FAFC;
-
 color:#0F172A;
-
 }
-
 .light-mode header{
-
 background:white;
-
 }
-
 .light-mode .project-card,
 .light-mode .skill-card,
 .light-mode .contact-card,
 .light-mode .internship-card,
 .light-mode .info-box,
 .light-mode .timeline-content{
-
 background:white;
-
 color:#0F172A;
-
 }
 /* ================= Hero Buttons ================= */
-
 .hero-buttons{
     display:flex;
     gap:18px;
     margin-top:25px;
     flex-wrap:wrap;
 }
-
 .btn{
     display:inline-block;
     padding:12px 28px;
@@ -811,29 +794,23 @@ color:#0F172A;
     font-weight:600;
     transition:0.3s;
 }
-
 .btn:hover{
     background:#084298;
     transform:translateY(-4px);
 }
-
 .btn2{
     background:transparent;
     color:#0d6efd;
     border:2px solid #0d6efd;
 }
-
 .btn2:hover{
     background:#0d6efd;
     color:#fff;
 }
-
 /* ================= Social Icons ================= */
-
 .social-icons{
     margin-top:30px;
 }
-
 .social-icons a{
     display:inline-flex;
     justify-content:center;
@@ -849,9 +826,37 @@ color:#0F172A;
     transition:0.3s;
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
-
 .social-icons a:hover{
     background:#0d6efd;
     color:#fff;
     transform:translateY(-5px);
+}
+.projects-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+.project-card{
+    background:#ffffff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+.project-card:hover{
+    transform:translateY(-8px);
+}
+.project-card h3{
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+.project-card p{
+    margin-bottom:15px;
+    line-height:1.7;
+}
+.project-card a{
+    color:#0d6efd;
+    text-decoration:none;
+    font-weight:bold;
 }
